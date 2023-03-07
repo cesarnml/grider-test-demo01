@@ -1,38 +1,97 @@
-# create-svelte
+# Testing Library Notes
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+- [Testing Library Notes](#testing-library-notes)
+  - [Lessons](#lessons)
+  - [Notes](#notes)
 
-## Creating a project
+## Lessons
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [X] ~~*Lesson 01* - How to Get Help~~ [2023-03-06]
+- [X] ~~*Lesson 02* Start Testing ... Now~~[2023-03-06]
+- [X] ~~*Lesson 03 - A Few Critical Questions*~~ [2023-03-06]
+- [X] ~~*Lesson 04 - Project Setup*~~ [2023-03-07]
+- [X] ~~*Lesson 05 - Adding the Form*~~ [2023-03-07]
+- [X] ~~*Lesson 06 - Handling User Input*~~ [2023-03-07]
+- [X] ~~*Lesson 07 - Rendering the List of Users*~~ [2023-03-07]
+- [X] ~~*Lesson 08 - Our First Test*~~ [2023-03-07]
+- [X] ~~*Lesson 09 - Element Query System*~~ [2023-03-07]
+- [X] ~~*Lesson 10 - Understanding ARIA Roles*~~ [2023-03-07]
+- [X] ~~*Lesson 11 - Understanding Jest Matchers*~~ [2023-03-07]
+- [X] ~~*Lesson 12 - Simulating User Events*~~ [2023-03-07]
+- [X] ~~*Lesson 13 - Recording Function Calls*~~ [2023-03-07]
+- [X] ~~*Lesson 14 - Introducing Mock Functions*~~ [2023-03-07] 
+- [X] ~~*Lesson 15 - Querying Elements by Labels*~~ [2023-03-07]
+- [X] ~~*Lesson 16 - Testing the UserList*~~ [2023-03-07]
+- [X] ~~*Lesson 17 - Getting Help with Query Functions*~~ [2023-03-07]
+- [X] ~~*Lesson 18 - Query Function Escape Hatches*~~ [2023-03-07]
+- [X] ~~*Lesson 19 - Another Query Function Fallback*~~ [2023-03-07]
+- [X] ~~*Lesson 20 - Testing Table Contents*~~ [2023-03-07]
+- [X] ~~*Lesson 21 - Avoiding BeforeEach*~~ [2023-03-07]
+- [X] ~~*Lesson 22 - Testing the Whole App*~~ [2023-03-07]
+- [X] ~~*Lesson 23 - A Touch of Test Driven Development*~~ [2023-03-07]
+- [X] ~~*Lesson 24 - Feature Implementation*~~ [2023-03-07]
+- [X] ~~*Lesson 25 - Introducing RTL Book*~~ [2023-03-07]
+- [X] ~~*Lesson 26 - A Few Notes on RTL Book*~~ [2023-03-07]
+- [X] ~~*Lesson 27 - Partial Role List*~~ [2023-03-07]
+- [X] ~~*Lesson 28 - Finding Elements by Role*~~ [2023-03-07]
+- [X] ~~*Lesson 29 - Finding by Accessible Names*~~ [2023-03-07]
+- [X] ~~*Lesson 30 - Linking Input to Labels*~~ [2023-03-07]
+- [X] ~~*Lesson 31 - Directly Assigning an Accessible Name*~~ [2023-03-07]
+- [X] ~~*Lesson 32 - Deeper into Query Functions*~~ [2023-03-07]
+- [X] ~~*Lesson 33 - GetBy, QueryBy, FindBy*~~ [2023-03-07]
+- [X] ~~*Lesson 34 - More on Single Queries*~~ [2023-03-07]
+- [X] ~~*Lesson 35 - Multiple Element Variations*~~ [2023-03-07]
+- [X] ~~*Lesson 36 - When to use These Queries*~~ [2023-03-07]
+- [X] ~~*Lesson 37 - When to use Async Queries*~~ [2023-03-07]
+- [X] ~~*Lesson 38 - Query Criteria*~~ [2023-03-07]
+- [X] ~~*Lesson 39 - When to Use Each Suffix*~~ [2023-03-07]
+- [X] ~~*Lesson 40 - Diving into Matcher*~~ [2023-03-07]
+- [X] ~~*Lesson 41 - Introducing Custom Matchers*~~ [2023-03-07]
+- [X] ~~*Lesson 42 - Implementing a Custom Matcher*~~ [2023-03-07]
+- [ ] Lesson 43 - App Overview and Setup
+- [ ] Lesson 44 - The Tech in This Project
+- [ ] Lesson 45
+- [ ] Lesson 46
+- [ ] Lesson 47
+- [ ] Lesson 48
+- [ ] Lesson 49
+- [ ] Lesson 50
+- [ ] Lesson 51
+- [ ] Lesson 52
+- [ ] Lesson 53
+- [ ] Lesson 54
+- [ ] Lesson 55
+- [ ] Lesson 56
+- [ ] Lesson 57
+- [ ] Lesson 58
+- [ ] Lesson 59
+- [ ] Lesson 60
+- [ ] Lesson 61
+- [ ] Lesson 62
+- [ ] Lesson 63
+- [ ] Lesson 64
+- [ ] Lesson 65
+- [ ] Lesson 66
+- [ ] Lesson 67
+- [ ] Lesson 68
+- [ ] Lesson 69
+- [ ] Lesson 70
+- [ ] Lesson 71
+- [ ] Lesson 72
+- [ ] Lesson 73
+- [ ] Lesson 74
+- [ ] Lesson 75
+- [ ] Lesson 76
+- [ ] Lesson 77
+- [ ] Lesson 78
+- [ ] Lesson 79
+- [ ] Lesson 80
+- [ ] Lesson 81
+- [ ] Lesson 82
+- [ ] Lesson 83
+- [ ] Lesson 84
+- [ ] Lesson 85
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Notes
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- `title` attribute adds a tooltip to an HTMLElement
