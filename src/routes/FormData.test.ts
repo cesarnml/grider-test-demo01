@@ -1,4 +1,4 @@
-import { render, screen, within } from '@testing-library/svelte'
+import { render, screen } from '@testing-library/svelte'
 import FormData from './FormData.svelte'
 
 test('it works', async () => {
