@@ -48,24 +48,24 @@
 - [X] ~~*Lesson 40 - Diving into Matcher*~~ [2023-03-07]
 - [X] ~~*Lesson 41 - Introducing Custom Matchers*~~ [2023-03-07]
 - [X] ~~*Lesson 42 - Implementing a Custom Matcher*~~ [2023-03-07]
-- [ ] Lesson 43 - App Overview and Setup
+- [X] ~~*Lesson 43 - App Overview and Setup*~~ [2023-03-08]
 - [ ] Lesson 44 - The Tech in This Project
-- [ ] Lesson 45
-- [ ] Lesson 46
-- [ ] Lesson 47
-- [ ] Lesson 48
-- [ ] Lesson 49
-- [ ] Lesson 50
-- [ ] Lesson 51
-- [ ] Lesson 52
-- [ ] Lesson 53
-- [ ] Lesson 54
-- [ ] Lesson 55
-- [ ] Lesson 56
-- [ ] Lesson 57
-- [ ] Lesson 58
-- [ ] Lesson 59
-- [ ] Lesson 60
+- [ ] Lesson 45 - The Path Ahead
+- [ ] Lesson 46 - A Process for Debugging
+- [ ] Lesson 47 - Understanding Data Flowing Into the Component
+- [ ] Lesson 48 - Developing a Test and a Fix
+- [ ] Lesson 49 - Looping Over Assertions
+- [ ] Lesson 50 - Flexible Queries
+- [ ] Lesson 51 - Another Bug!
+- [ ] Lesson 52 - Analyzing the Data ... Again!
+- [ ] Lesson 53 - Analyzing Router Context
+- [ ] Lesson 54 - Unexpected State Updates
+- [ ] Lesson 55 - Act Included with React Testing Library
+- [ ] Lesson 56 - Using Act (Hopefully Not!) with RTL
+- [ ] Lesson 57 - Solving the Act Warning
+- [ ] Lesson 58 - Module Mocks
+- [ ] Lesson 59 - Absolute Last Ditch Act Solution
+- [ ] Lesson 60 - Checking the Link Href
 - [ ] Lesson 61
 - [ ] Lesson 62
 - [ ] Lesson 63

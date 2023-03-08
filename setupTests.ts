@@ -24,7 +24,7 @@ function toContainRole(container: HTMLElement, role: string, quantity = 1) {
 	}
 }
 
-// @ts-expect-error here
+// @ts-expect-error test
 expect.extend({ toContainRole })
 // Mock SvelteKit runtime module $app/environment
 vi.mock('$app/environment', (): typeof environment => ({
